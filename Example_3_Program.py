@@ -5,7 +5,8 @@ list_ex = ['Microsoft', 'Golden', 'Banana']
 def swap_ends(list1):
     print("List Values are As Follows")
     print(list1)
-    a = list1.__len__()
+    a = list1.__len__()  # Fetching Length of the List.
+    print()
     temp = list1[0]
     list1[0] = list1[a-1]
     list1[a-1] = temp
