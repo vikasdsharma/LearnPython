@@ -12,3 +12,4 @@ def swap_ends(list1):
     print(list1)
 
 swap_ends(list_ex)
+swap_ends(['a', 'b', 'v'])
