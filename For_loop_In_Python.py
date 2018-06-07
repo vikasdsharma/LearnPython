@@ -23,3 +23,10 @@ for i in range(1, 100):
     else:
         print("This is not the Multiple of the 3 i.e", i)
 print("Sum of All 3 Multiples in the 100s is ", total1)
+
+total2 = 0
+for i in (range(1, 100)):
+    if (i % 3 == 0) or (i % 5 == 0):
+        total2 += i
+        print(i)
+print("Sum of the multiples of the 3 and 5 is     =   ", total2)
